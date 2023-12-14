@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600&display=swap");
+}
+
+* {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.wrap {
+    margin:auto;
+}
+
+nav{
+    width:1920px;
+    height:100px;
+    margin:0 auto; 
+    background-color: rgb(14, 14, 14);
+    position:relative;
+}
+
+nav ul {
+    width:1100px;
+    height:110px;
+    margin: 0 auto;
+    
+}
+
+nav li {
+    float:left;
+    position:relative;
+    top:45px;
+}
+
+nav ul a {
+    font-size:20px;
+    color:white;
+    margin:0 40px;
+    font-weight: 600;
+}
+
+nav ul :first-child a {
+    color:#ff0000;
+    font-size:25px;
+}
+
+nav ul a:hover {
+    color:#ff0000;
+    font-size:25px;
+}
+
+nav ul img {
+    position:relative;
+    width:5px;
+    bottom:5px;
+}
+
+.logo {
+    position:relative;
+    float:right;
+    right:410px;
+    width:120px;
+    bottom:110px;
+}
+
+.logo img {
+    width:120px;
+}
+
+section{
+    margin:0 auto;
+    width:1920px;
+    height:1500px;
+}
+
+section div {
+    width:1100px;
+    height: 1500px;
+    margin:0 auto;
+}
+
+section img {
+    margin-top:150px;
+}
+
+section :nth-child(2) {
+    position:relative;
+    bottom:180px;
+    left:350px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section span {
+    font-size:40px;
+}
+
+section div :nth-child(3){
+    width:1100px;
+    line-height: 30px;
+}
+
+section div :nth-child(4){
+    margin:60px 25px;
+}
+
+section div :nth-child(5){
+    margin:60px 25px;
+}
+
+.footer{
+    position:relative;
+    height:100px;
+    width:1920px;
+    background-color: rgb(20, 20, 20);
+    margin:0 auto;
+}
+
+.footer img {
+    position:absolute;
+    width:70px;
+    left:430px;
+
+}
+
+.footer span {
+    color: white;
+    float:right;
+    margin:40px 430px 0px 0px;
+}
